@@ -18,11 +18,13 @@
 
 .section div{ 
   display: inline;
-  color: white
+  color: white;
   font-weight: bold;
 }
 
 .form-container{
-  
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
 }
 
