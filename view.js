@@ -41,13 +41,14 @@ matcherView = {
   },
     
   hideCards: function(  ) {
-    $(".card").not('correct').removeClass('revealed');
+    $(".card").not('.correct').removeClass('revealed');
   },
     
-
-
   updateGameView: function(  ) {
-    
+    $("#game-state-info").text( this.model.gameStateText );
+    $("#num-guesses").text( this.model.numGuesses );
+    $("#matched-cards").text( this.model.matchedCards );
+    $("#total-cards").text( this.model.totalCards );
   },
     
 };
